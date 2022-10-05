@@ -59,11 +59,9 @@ billie = Employee("Billie", Contract.SALARY, Commission.NONE, 4000)
 
 # Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500.
 charlie = Employee('Charlie', Contract.HOURLY, Commission.NONE, 25, hours_worked = 100)
-print(str(charlie))
 
 # Renee works on a monthly salary of 3000 and receives a commission for 4 contract(s) at 200/contract.  Their total pay is 3800.
 renee = Employee('Renee', Contract.SALARY, Commission.CONTRACT, 3000, commission_pay=200, contracts_secured=4)
-print(str(renee))
 
 # Jan works on a contract of 150 hours at 25/hour and receives a commission for 3 contract(s) at 220/contract.  Their total pay is 4410.
 jan = Employee('Jan', Contract.HOURLY, Commission.CONTRACT, 25, contracts_secured=3, commission_pay=220, hours_worked=150)
